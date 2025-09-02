@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="weather-container" class="weather-container">
+        <div class="main-info">
+            <h1 id="city-name">Loading...</h1>
+            <p id="current-temp">--°</p>
+            <p id="weather-description">--</p>
+            <p>H:<span id="high-temp">--</span>° L:<span id="low-temp">--</span>°</p>
+        </div>
+
+        <div class="card">
+            <h2>Hourly Forecast</h2>
+            <div id="hourly-forecast" class="hourly-forecast">
+                </div>
+        </div>
+
+        <div class="card">
+            <h2>10-Day Forecast</h2>
+            <div id="daily-forecast" class="daily-forecast">
+                </div>
+        </div>
+
+        <div class="details-grid">
+            <div class="card detail-card">
+                <h3>UV Index</h3>
+                <p id="uv-index">--</p>
+            </div>
+            <div class="card detail-card">
+                <h3>Sunrise</h3>
+                <p id="sunrise">--:-- AM</p>
+            </div>
+            <div class="card detail-card">
+                <h3>Wind</h3>
+                <p id="wind-speed">-- mph</p>
+            </div>
+            <div class="card detail-card">
+                <h3>Precipitation</h3>
+                <p id="precipitation">--%</p>
+            </div>
+             <div class="card detail-card">
+                <h3>Sunset</h3>
+                <p id="sunset">--:-- PM</p>
+            </div>
+            <div class="card detail-card">
+                <h3>Air Quality</h3>
+                <p id="air-quality">--</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
